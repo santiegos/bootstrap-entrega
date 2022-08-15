@@ -1,0 +1,78 @@
+/* Estilo General*/
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body {
+    background-size: cover;
+    background-image: url(./IMG/ws_starry_sky\,_galaxy\,_universe\,_2560x1440.jpeg)
+}
+
+h1 {
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 0.4360337885154062) 0%, rgba(148, 187, 233, 0.217546393557423) 93%);
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+
+}
+
+
+h3 {
+    height: 3px;
+    background: rgb(30, 0, 36);
+    background: rgb(0, 31, 36);
+    background: linear-gradient(90deg, rgba(0, 31, 36, 0.47524947478991597) 3%, rgba(54, 0, 62, 0.09989933473389356) 100%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+}
+
+
+p {
+    color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.color:hover {
+    color: goldenrod;
+}
+
+
+.color {
+    color: goldenrod;
+}
+
+/* Animacion */
+.animacion {
+    animation-name: texto;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes texto {
+    from {
+        transform: translateX(1000px);
+    }
+
+    to {
+        transform: translateX(0);
+
+    }
+}
